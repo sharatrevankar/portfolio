@@ -1,3 +1,10 @@
+// Set footer year (keeps it correct automatically)
+(function setYear() {
+    const yearEl = document.getElementById("year");
+    if (!yearEl) return;
+    yearEl.textContent = String(new Date().getFullYear());
+})();
+
 /*document.getElementById("contactForm").addEventListener("submit", function(e) {
     e.preventDefault();
 

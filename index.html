@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Sharat Revankar | MCA Student</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sharat Revankar — MCA student and aspiring MERN developer. Portfolio showcasing skills, projects, education, and contact details.">
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
@@ -13,119 +14,164 @@
 </head>
 <body>
 
-    <!-- ================= HERO SECTION ================= -->
-    <header class="hero">
-        <div class="hero-container">
-            <img src="assets/profile.jpg" alt="Sharat Profile Photo" class="profile-img">
+    <a class="skip-link" href="#main">Skip to content</a>
 
-            <h1>Sharat Revankar</h1>
-            <h3>MCA Student | Aspiring MERN Developer</h3>
+    <header class="site-header hero">
+        <nav class="nav" aria-label="Primary">
+            <div class="container nav-inner">
+                <a class="brand" href="#top">Sharat Revankar</a>
+                <ul class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
 
-            <p>
-                Passionate software developer building scalable web applications.
-                Focused on mastering full-stack development and modern JavaScript ecosystems.
-            </p>
-        </div>
+        <section class="hero-content" id="top" aria-label="Introduction">
+            <div class="hero-container container">
+                <img src="assets/profile.jpg" alt="Portrait of Sharat Revankar" class="profile-img">
+
+                <h1>Sharat Revankar</h1>
+                <p class="subtitle">MCA Student | Aspiring MERN Developer</p>
+
+                <p class="lead">
+                    Passionate software developer building scalable web applications.
+                    Focused on mastering full-stack development and modern JavaScript ecosystems.
+                </p>
+            </div>
+        </section>
     </header>
 
+    <main id="main">
+
     <!-- ================= ABOUT ================= -->
-    <section class="about section">
-        <h2>About Me</h2>
-        <p>
-            I am currently pursuing MCA and learning the MERN stack deeply. 
-            I am focused on building real-world applications and improving problem-solving skills.
-            I am looking for internship opportunities in web development to gain industry experience.
-        </p>
-    </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I am currently pursuing MCA and learning the MERN stack deeply.
+                    I am focused on building real-world applications and improving problem-solving skills.
+                    I am looking for internship opportunities in web development to gain industry experience.
+                </p>
+            </div>
+        </section>
 
     <!-- ================= SKILLS ================= -->
-    <section class="skills section">
-        <h2>Skills</h2>
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2>Skills</h2>
 
-        <div class="skills-container">
-            <div>
-                <h3>Technical Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>React (Learning)</li>
-                    <li>Node.js (Learning)</li>
-                    <li>Java</li>
-                    <li> Python</li>
-                    <li>C Programming & DSA</li>
-                    <li>Computer Networks</li>
-                    <li> Cloud Essentials</li>
-                    
-                </ul>
-            </div>
+                <div class="skills-container" role="list">
+                    <article class="card" role="listitem">
+                        <h3>Technical Skills</h3>
+                        <ul class="clean-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>React (Learning)</li>
+                            <li>Node.js (Learning)</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C Programming &amp; DSA</li>
+                            <li>Computer Networks</li>
+                            <li>Cloud Essentials</li>
+                        </ul>
+                    </article>
 
-            <div>
-                <h3>Tools</h3>
-                <ul>
-                    <li>Git & GitHub</li>
-                    <li>VS Code</li>
-                    <li>Postman</li>
-                    <li>MongoDB Atlas</li>
-                </ul>
+                    <article class="card" role="listitem">
+                        <h3>Tools</h3>
+                        <ul class="clean-list">
+                            <li>Git &amp; GitHub</li>
+                            <li>VS Code</li>
+                            <li>Postman</li>
+                            <li>MongoDB Atlas</li>
+                        </ul>
+                    </article>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <!-- ================= PROJECTS ================= -->
-    <section class="projects section">
-        <h2>Projects</h2>
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2>Projects</h2>
 
-        <div class="project-card">
-            <h3>Jewellery Billing System</h3>
-            <p>
-                A full-featured billing and inventory system with GST support.
-                Built for real-world jewellery shop management.
-            </p>
-            <p><strong>Tech:</strong> Node.js, Express, MongoDB</p>
-            <a href="https://github.com/sharatrevankar/jewellery-billing-system" target="_blank">GitHub Link</a>
-        </div>
+                <article class="project-card card">
+                    <h3>Jewellery Billing System</h3>
+                    <p>
+                        A full-featured billing and inventory system with GST support.
+                        Built for real-world jewellery shop management.
+                    </p>
+                    <p><strong>Tech:</strong> Node.js, Express, MongoDB</p>
+                    <a class="link" href="https://github.com/sharatrevankar/jewellery-billing-system" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+                </article>
 
-        <div class="project-card">
-            <h3>Portfolio Website</h3>
-            <p>
-                Personal responsive website to showcase skills and projects.
-                Designed with modern UI principles.
-            </p>
-            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-            <a href="https://github.com/sharatrevankar/portfolio" target="_blank">GitHub Link</a>
-        </div>
-
-    </section>
+                <article class="project-card card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        Personal responsive website to showcase skills and projects.
+                        Designed with modern UI principles.
+                    </p>
+                    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                    <a class="link" href="https://github.com/sharatrevankar/portfolio" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+                </article>
+            </div>
+        </section>
 
     <!-- ================= EDUCATION ================= -->
-    <section class="education section">
-        <h2>Education</h2>
-        <div class="edu-card">
-            <h3>Master of Computer Applications (MCA)</h3>
-            <p>Basaveshwar Engineering College, Bagalkote</p>
-            <p>2026</p>
-        </div>
-    </section>
+        <section class="education section" id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <article class="edu-card card">
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p>Basaveshwar Engineering College, Bagalkote</p>
+                    <p class="muted">2026</p>
+                </article>
+            </div>
+        </section>
 
     <!-- ================= CONTACT ================= -->
-    <section class="contact section">
-        <h2>Contact</h2>
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2>Contact</h2>
 
-        <p>Email: <a href="mailto:sharatrevankar@outlook.in">sharatrevankar@outlook.in</a></p>
-        <p>Github: <a href="https://github.com/sharatrevankar" target="_blank">sharatrevankar</a></p>
-        <p>Phone: +91 9110662543</p>
+                <address class="contact-details">
+                    <p>Email: <a class="link" href="mailto:sharatrevankar@outlook.in">sharatrevankar@outlook.in</a></p>
+                    <p>Github: <a class="link" href="https://github.com/sharatrevankar" target="_blank" rel="noopener noreferrer">sharatrevankar</a></p>
+                    <p>Phone: <a class="link" href="tel:+919110662543">+91 9110662543</a></p>
+                </address>
 
-           <!--<form id="contactForm">  -->
-            <form action="https://formspree.io/f/mykdollg" method="POST" id="contactForm">
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+                <!--<form id="contactForm">  -->
+                <form action="https://formspree.io/f/mykdollg" method="POST" id="contactForm" aria-label="Contact form">
+                    <label class="field">
+                        <span class="field-label">Name</span>
+                        <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required>
+                    </label>
+                    <label class="field">
+                        <span class="field-label">Email</span>
+                        <input type="email" id="email" name="email" placeholder="Your Email" autocomplete="email" required>
+                    </label>
+                    <label class="field">
+                        <span class="field-label">Message</span>
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </label>
+                    <button type="submit">Send</button>
+                </form>
 
-        <p id="formMessage"></p>
-    </section>
+                <p id="formMessage" class="muted" aria-live="polite"></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="muted">© <span id="year">2026</span> Sharat Revankar</p>
+        </div>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
